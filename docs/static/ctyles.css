@@ -1,0 +1,203 @@
+body {
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Современный
+шрифт для лучшей читаемости */
+ margin: 0; /* Убираем стандартные отступы браузера */
+ padding: 0; /* Убираем стандартные внутренние отступы */
+ background: #fffad9;
+ min-height: 100vh; /* Минимальная высота равна высоте окна браузера */
+}
+
+.page-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    background: white;
+    min-height: 100px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 1);
+}
+.header{
+    background:#587fa6;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 28px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.nav{
+    background: #587fa6;
+    padding: 20px 0;
+}
+
+.nav-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.nav-item{
+    margin: 0;
+}
+
+.nav-link{
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 15%;
+    transition: all 0.3s ease;
+    transform: translateY(0);
+    font-weight: 500;
+}
+
+.nav-link:hover{
+    transform: translateY(-2px);
+    background-color: rgba(255,255,255,0.1);
+}
+
+.content{
+    padding: 40px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.profile-header{
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.profile-title{
+    font-size: 32px;
+    color: #0f0f0f;
+    margin-bottom: 10px;
+    font-weight: 600 ;
+}
+
+.profile-photo{
+    width: 220px;
+    height: 220px;
+    border-radius:50% ;
+    border: solid black 5px;
+    box-shadow: 0 10px 25px rgb(57, 58, 62);
+}
+.profile-name{
+    font-size: 30px;
+    color: #0f0f0f;
+    margin: 10px 0;
+    font-weight: 500 ;
+}
+.profile-group{
+    font-size:20px;
+    margin: 5px 0;
+}
+
+.about-me{
+    background:white  ;
+    padding: 25px;
+    border-radius: 25px;
+    margin: 30px 0;
+    border-left: 8px solid #2a7fe8;
+    font-size: 18px;
+    line-height: 1.7;
+    box-shadow: 0 5px 25px ;
+}
+.skills-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 30px 0;
+}
+
+.skill-tag{
+    background: #2a7fe8;
+    border-radius: 25px;
+    color: white;
+    padding: 12px 25px;
+    font-weight: 600;
+    font-size: 14px;
+    box-shadow: 0 4px 25px rgba(79, 172, 254, 0.3);
+    transition: all 0.3s ease;
+}
+
+.skill-tag:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(79, 172, 254, 0.4);
+}
+
+.experience-section{
+    margin-top: 50px;
+}
+
+.section-title{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom:30px ;
+    font-weight: 300;
+}
+
+.experience-card{
+    background: white;
+    border-radius: 25px;
+    border-left: solid 8px #2a7fe8;
+    padding: 15px;
+    margin: 20px 0;
+    box-shadow: 0 3px 15px;
+    transition: transform 0.3s ease;
+}
+
+.experience-card:hover{
+    transform: translateX(5px);
+}
+
+.experience-title{
+    font-size: 20px;
+    margin: 0 0 10px 0;
+    font-weight: 600;
+}
+.experience-desc{
+    line-height: 1.6;
+    margin: 0;
+}
+
+.footer{
+    background: #587fa6 ;
+    text-align: center;
+    padding: 30px;
+    margin-top: 50px;
+}
+
+.news-text{
+    font-size: 20px;
+    margin: 0 0 10px 0;
+    font-weight: 600;
+}
+.news-text-min{
+    font-size: 15px;
+    font-weight: 400;
+}
+.content-item{
+    background: white;
+    border-radius:25px ;
+    padding: 20px ;
+    box-shadow: 0 5px 15px;
+    border-left: solid 8px #2a7fe8;
+    transition: transform 0.3s ease;
+
+    
+}
+.content-item:hover{
+    transform: translateX(5px);
+}
+
+.goods-item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: solid red 2px;
+    border-radius: 25px;
+    margin: 10px;
+    background: white;
+}
